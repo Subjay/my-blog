@@ -124,6 +124,9 @@ const showingNavigationDropdown = ref(false);
                         <ResponsiveNavLink :href="route('articles.index')" :active="route().current('articles.index')">
                             Articles
                         </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('articles.create')" :active="route().current('articles.create')">
+                            Cr&eacute;er
+                        </ResponsiveNavLink>
                     </div>
 
                     <!-- Responsive Settings Options -->

@@ -86,7 +86,7 @@ function upperCase(value) {
       <div v-if="articles.length == 0">
         <p>D&eacute;sol&eacute;, aucun article trouv&eacute;.</p>
       </div>
-      <div v-else v-for="article in articles" class="p-4 shadow-lg rounded-lg bg-white h-[25vw]">
+      <div v-else v-for="article in articles" class="p-4 shadow-lg rounded-lg bg-white lg:h-[25vw]">
         <div class="flex-1 h-full">
           <a :href="route('articles.show', article.id)" class="flex flex-col items-center h-full">
             <div class="max-h-[20vw]">
