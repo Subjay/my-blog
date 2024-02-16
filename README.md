@@ -5,7 +5,7 @@ Install all modules :
 composer install   
 npm install
 
-Duplicate .env.example and change those values, with your custom ones :
+Duplicate .env.example, rename it .env and change those values (with your custom ones) :
 
 DB_CONNECTION=mysql   
 DB_HOST=127.0.0.1   
